@@ -129,6 +129,7 @@ export const PROJECTS: Project[] = [
     descriptionEn: "Secure, local-first AI platform integrating multi-modal models. Features real-time collaborative editing and data compliance.",
     techStack: ["Product Design", "System Integration", "Security Compliance"],
     imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
+    demoUrl: "https://aistudio.readingassistant.top/",
     isPersonal: false
   },
   {
@@ -140,6 +141,7 @@ export const PROJECTS: Project[] = [
     descriptionEn: "Solved cross-timezone collaboration issues via automated notifications. Features hierarchy management and progress tracking.",
     techStack: ["Workflow Automation", "Product Management", "UX Design"],
     imageUrl: "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=600&auto=format&fit=crop",
+    demoUrl: "https://timesync.readingassistant.top/tasks",
     isPersonal: false
   },
   {
@@ -152,7 +154,7 @@ export const PROJECTS: Project[] = [
     techStack: ["Python", "PyTorch", "LLM Fine-tuning", "Prompt Engineering"],
     imageUrl: "https://images.unsplash.com/photo-1614726365723-49cfae96a604?q=80&w=600&auto=format&fit=crop", 
     githubUrl: "https://github.com/redbanchk/wolong-chat",
-    demoUrl: "https://wolong-chat.vercel.app/",
+    demoUrl: "https://wolongchat.readingassistant.top/",
     isPersonal: true
   },
   {
@@ -165,6 +167,7 @@ export const PROJECTS: Project[] = [
     techStack: ["Python", "Web Scraping", "NLP", "Automation"],
     imageUrl: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=600&auto=format&fit=crop",
     githubUrl: "https://github.com/redbanchk/TrendRadar2.1",
+    demoUrl: "https://newsreport.readingassistant.top/",
     isPersonal: true
   }
 ];

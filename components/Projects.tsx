@@ -161,8 +161,8 @@ const Projects: React.FC = () => {
                       </div>
                     </div>
 
-                    {selectedProject.githubUrl && (
-                      <div className="flex gap-4 pt-4">
+                    <div className="flex gap-4 pt-4">
+                      {selectedProject.githubUrl && (
                           <a 
                             href={selectedProject.githubUrl} 
                             target="_blank" 
@@ -172,8 +172,19 @@ const Projects: React.FC = () => {
                             <Github className="w-5 h-5" />
                             GitHub
                           </a>
-                      </div>
-                    )}
+                      )}
+                      {selectedProject.demoUrl && (
+                          <a 
+                            href={selectedProject.demoUrl} 
+                            target="_blank" 
+                            rel="noreferrer"
+                            className="flex-1 py-3 bg-slate-800 text-white rounded-lg text-center font-medium hover:bg-slate-700 transition-colors flex items-center justify-center gap-2"
+                          >
+                            <ExternalLink className="w-5 h-5" />
+                            Live Demo
+                          </a>
+                      )}
+                    </div>
                   </div>
                </div>
             </div>
