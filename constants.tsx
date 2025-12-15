@@ -152,7 +152,7 @@ export const PROJECTS: Project[] = [
     descriptionZh: "独立完成开源大模型轻量化微调，收集《三国演义》素材，还原角色风格。全程自主推进数据整理、参数配置与部署。",
     descriptionEn: "Independent lightweight fine-tuning of an open-source LLM. Curated datasets to replicate character style. Managed pipeline from data cleaning to deployment.",
     techStack: ["Python", "PyTorch", "LLM Fine-tuning", "Prompt Engineering"],
-    imageUrl: "https://images.unsplash.com/photo-1614726365723-49cfae96a604?q=80&w=600&auto=format&fit=crop", 
+    imageUrl: "./avatar.jpg", 
     githubUrl: "https://github.com/redbanchk/wolong-chat",
     demoUrl: "https://wolongchat.readingassistant.top/",
     isPersonal: true

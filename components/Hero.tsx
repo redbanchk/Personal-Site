@@ -1,6 +1,6 @@
 import React from 'react';
 import { PERSONAL_INFO } from '../constants';
-import { Download, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -58,13 +58,6 @@ const Hero: React.FC = () => {
                 <span>查看项目 Projects</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
-              <button 
-                className="px-8 py-3 border border-slate-600 text-white rounded-full font-semibold hover:bg-slate-800 transition-all flex items-center gap-2"
-                onClick={() => alert("简历下载功能 Resume Download")}
-              >
-                <Download className="w-4 h-4" />
-                <span>下载简历 Resume</span>
-              </button>
             </div>
           </div>
 
