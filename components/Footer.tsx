@@ -10,10 +10,10 @@ const Footer: React.FC = () => {
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-white mb-2">{PERSONAL_INFO.nameZh} <span className="text-base font-normal text-slate-500">| {PERSONAL_INFO.nameEn}</span></h3>
             <p className="text-slate-400 text-sm max-w-xs mb-1">
-              期待 AI 产品经理相关机会。
+              期待 AI 赋能业务专员相关机会。
             </p>
             <p className="text-slate-600 text-xs max-w-xs">
-              Open to opportunities in AI Product Management.
+              Open to opportunities in AI-enabled business operations.
             </p>
           </div>
 

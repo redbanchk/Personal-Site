@@ -6,17 +6,17 @@ import { Experience, Project, Skill, SocialLink } from './types';
 export const PERSONAL_INFO = {
   nameZh: "何坤冀",
   nameEn: "Kunji He",
-  titleZh: "AI产品经理",
-  titleEn: "AI Product Manager",
-  taglineZh: "链接复杂AI模型与用户核心需求的桥梁",
-  taglineEn: "Bridging the gap between Complex AI Models and User-Centric Products",
-  summaryZh: "男 | 24岁 | 3年工作经验 | 衡阳师范大学 | 英语师范",
-  summaryEn: "Male | 24 Years Old | 3 Years Exp | Hengyang Normal University | English Education",
-  aboutZh: "具备全链路产品实战能力，覆盖需求挖掘、数据分析、文档输出、功能设计、场景适配、落地迭代的完整流程。擅长将 AI 技术与实际业务场景深度结合，优化产品功能适配性与用户体验。在「人人都是产品经理」平台持续输出 AI 产品设计原创文章。",
-  aboutEn: "I possess full-cycle product capabilities, from requirements gathering to data-driven iteration. I specialize in combining AI technologies (LLMs, NLP) with practical business scenarios to solve real-world problems. I actively publish original articles on AI product design.",
-  email: "kunji.he@example.com", 
-  locationZh: "中国",
-  locationEn: "China",
+  titleZh: "AI赋能业务专员",
+  titleEn: "AI-Enabled Business Specialist",
+  taglineZh: "识别一线业务痛点，用AI工具驱动效率提升与流程优化",
+  taglineEn: "Turning frontline business pain points into measurable efficiency gains with AI tools.",
+  summaryZh: "男 | 24岁 | 3年工作经验 | 期望城市：泰安",
+  summaryEn: "Male | 24 | 3 Years Experience | Target City: Tai'an",
+  aboutZh: "具备业务场景挖掘与AI工具开发落地实战经验，擅长识别一线业务痛点并通过技术手段提效。拥有效果监控与迭代优化意识，能用量化指标验证工具成效；具备团队AI工具培训与推广能力，曾主导新人带训与标准化流程沉淀；跨部门协作经验丰富，学习敏锐度高，能快速适应业务变化与技术迭代，精通Python并具备程序开发能力。",
+  aboutEn: "Hands-on experience in business scenario discovery and AI tool implementation. Skilled at identifying frontline pain points and improving efficiency through practical technical solutions. Strong in result monitoring and iterative optimization with measurable indicators, team enablement and SOP training, cross-functional collaboration, and rapid adaptation to changing business needs. Proficient in Python development.",
+  email: "1094822072@qq.com",
+  locationZh: "泰安",
+  locationEn: "Tai'an, China",
   portrait1_1: "./portrait_1_1.jpg", // Please save your Blue Suit photo as portrait_1_1.jpg in the public/root folder
   portrait2_3: "./portrait_2_3.jpg", // Please save your Dark Suit/Hand-on-chin photo as portrait_2_3.jpg in the public/root folder
 };
@@ -31,53 +31,45 @@ export const CONTACT_INFO = {
 
 // Social Links
 export const SOCIAL_LINKS: SocialLink[] = [
-  { name: 'GitHub', url: 'https://github.com/redbanchk', icon: <Github className="w-5 h-5" /> },
-  { 
-    name: '人人都是产品经理', 
-    url: 'https://www.woshipm.com/u/1628826', 
-    icon: (
-      <svg className="w-5 h-5" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-        <path d="M224 320h144l144 160 144-160h144v576h-128V480l-160 192-160-192v416h-128V320z" />
-      </svg>
-    ) 
-  },
+  { name: '个人网站', url: 'https://mypersonalsite.readingassistant.top', icon: <Globe className="w-5 h-5" /> },
+  { name: '邮箱', url: 'mailto:1094822072@qq.com', icon: <Mail className="w-5 h-5" /> },
 ];
 
 // Skills / Advantages
 export const SKILLS: Skill[] = [
   {
-    titleZh: "产品思维与业务适配素养",
-    titleEn: "Product Thinking & Business Fit",
-    descriptionZh: "具备全链路产品实战能力，从用户调研与业务痛点拆解出发，熟练输出PRD、产品流程图。擅长将AI技术与实际业务场景深度结合，推动产品从0到1落地。",
-    descriptionEn: "Full-cycle capability: PRD, flowcharts, data analysis, and user research. Proven track record in translating user pain points into prioritized features and driving 0-1 product launches.",
+    titleZh: "业务场景挖掘",
+    titleEn: "Business Scenario Discovery",
+    descriptionZh: "深度调研一线业务流程，精准识别翻译、口语、作文等场景下的数据质量与执行痛点，并抽象为可执行的规则体系。",
+    descriptionEn: "Deeply investigates frontline workflows and identifies data quality or execution bottlenecks, then converts them into practical and executable standards.",
     icon: "Brain"
   },
   {
-    titleZh: "团队管理与统筹能力",
-    titleEn: "Team Management",
-    descriptionZh: "拥有AI项目跨角色协作实战经验，统筹8人标注团队，联动算法与运营部门。通过过程化管理与复盘优化，兼顾团队执行效率与成果质量。",
-    descriptionEn: "Experience leading cross-functional teams (Dev, Ops, Labeling). Skilled in task decomposition, progress tracking, and quality assurance for high-efficiency delivery.",
-    icon: "Users"
-  },
-  {
-    titleZh: "AI项目实战专长",
-    titleEn: "AI Implementation",
-    descriptionZh: "深耕AI数据标注、模型训练与产品落地全流程。能通过数据分析定位模型与产品痛点，针对性输出优化方案，保障AI项目全链路效果。",
-    descriptionEn: "Expertise in SFT data labeling, model training workflows, and prompt engineering. Proficient in diagnosing model issues via data analysis to optimize performance.",
-    icon: "Briefcase"
-  },
-  {
-    titleZh: "技术开发与应用能力",
-    titleEn: "Technical Proficiency",
-    descriptionZh: "精通C++、Python，熟练运用Workflow自动化工具。具备扎实的技术逻辑，能参与技术选型与核心模块实现，通过脚本开发提升工作效率。",
-    descriptionEn: "Proficient in Python, C++, and Workflow automation tools. Capable of technical feasibility analysis, script development for automation, and tech stack selection.",
+    titleZh: "AI工具开发与提效",
+    titleEn: "AI Tool Development",
+    descriptionZh: "能将重复性校验工作工具化，独立开发中英文标点与格式检测工具，实现问题高亮定位，显著减少人工排查耗时。",
+    descriptionEn: "Builds practical AI-enabled utilities for repetitive tasks, including punctuation and formatting validation with automatic highlighting.",
     icon: "Code"
   },
   {
-    titleZh: "英语专业与教研优势",
-    titleEn: "Language & Research",
-    descriptionZh: "英语师范专业背景，专四证书持有者。擅长将英语教学场景逻辑融入多语言AI产品设计，精准完成跨文化场景的需求拆解与规则制定。",
-    descriptionEn: "English Major background with TEM-4 certification. Specialized in applying linguistic logic to NLP product design and cross-cultural business scenarios.",
+    titleZh: "效果监控与迭代优化",
+    titleEn: "Monitoring & Iteration",
+    descriptionZh: "具备过程化进度跟踪与质量抽检能力，能够通过量化指标验证工具与数据方案成效，并持续迭代优化交付质量。",
+    descriptionEn: "Uses measurable indicators, progress tracking, and quality sampling to validate impact and continuously improve delivery outcomes.",
+    icon: "Briefcase"
+  },
+  {
+    titleZh: "团队培训与标准化",
+    titleEn: "Team Enablement & SOP",
+    descriptionZh: "曾协助完成新人带训，沉淀标注操作手册与质量检查清单，降低团队上手成本并提升协作一致性。",
+    descriptionEn: "Supports onboarding and team enablement by creating SOPs and quality checklists that reduce ramp-up time and improve consistency.",
+    icon: "Users"
+  },
+  {
+    titleZh: "跨部门协作与学习能力",
+    titleEn: "Cross-Functional Collaboration",
+    descriptionZh: "跨部门协作经验丰富，能够在业务、运营与技术之间高效沟通；学习敏锐度高，可快速适应业务变化和技术迭代。",
+    descriptionEn: "Experienced in cross-team collaboration and fast context switching, with strong adaptability to business changes and technology updates.",
     icon: "Globe"
   }
 ];
@@ -87,33 +79,67 @@ export const EXPERIENCES: Experience[] = [
   {
     companyZh: "阿里巴巴（中国）有限公司",
     companyEn: "Alibaba (China) Co., Ltd.",
-    roleZh: "AI产品经理",
-    roleEn: "AI Product Manager",
+    roleZh: "数据标注 / AI训练师",
+    roleEn: "Data Annotation / AI Trainer",
     period: "2025.04 - 2025.10",
     descriptionZh: [
-      "夸克大模型“夸克老师”英语SFT标注项目：主导标注规则体系搭建，统筹8人团队交付5千条高质量数据，建立统一可信的标注规范。",
-      "海外团队邮件自动化通知中台：设计全流程自动化邮件通知机制，解决跨时空协作痛点，团队使用率达90%，协作效率提升20%。",
-      "企业级私有AI集成平台：主导集成文本、图像、视频多模态模型，实现本地安全调用与实时协作，提升团队响应效率40%。"
+      "夸克大模型“夸克老师”英语SFT数据标注项目：深度调研翻译、口语、作文等学习场景，识别数据质量痛点并制定词汇、句式、逻辑等多维标注标准。",
+      "团队培训赋能：协助项目经理完成新人带训与标准化培训，沉淀标注操作手册与质量检查清单，降低团队上手成本。",
+      "效果监控与交付：统筹8人标注团队，通过进度跟踪与质量抽检机制，交付5,000条高质量SFT训练数据，直接支撑模型英语交互能力优化。",
+      "个人主导AI提效工具开发：针对中英文标点混用与格式不规范问题，独立开发自动化检测工具，实现智能识别与高亮标注，一键定位格式问题。"
     ],
     descriptionEn: [
-      "Quark LLM 'Quark Teacher' SFT Project: Led English learning data labeling rules. Managed an 8-person team to deliver 5,000+ high-quality SFT entries.",
-      "Overseas Mail Automation Platform: Designed automated notification system, increasing cross-department collaboration efficiency by 20%.",
-      "Enterprise AI Integration Platform: Integrated multi-modal models into a secure local environment with real-time collaboration, improving efficiency by 40%."
+      "Quark LLM 'Quark Teacher' SFT: Investigated English learning scenarios and defined multi-dimensional labeling standards for vocabulary, sentence structure, and logic.",
+      "Team Enablement: Assisted onboarding and standardized training, producing operation manuals and quality checklists.",
+      "Delivery & Monitoring: Coordinated an 8-member team and delivered 5,000 high-quality SFT records with process tracking and quality sampling.",
+      "Personal AI Utility: Built an automated punctuation and formatting checker to highlight issues and reduce manual verification effort."
     ]
   },
   {
     companyZh: "上海淳业仪表科技有限公司",
     companyEn: "Shanghai Chunye Instrument Technology",
-    roleZh: "AI技术负责人 / 外贸运营专员",
-    roleEn: "AI Tech Lead / Foreign Trade Ops",
+    roleZh: "外贸业务员",
+    roleEn: "Foreign Trade Sales Representative",
     period: "2024.08 - 2024.12",
     descriptionZh: [
-      "AI技术负责人：主导私有大模型本地化部署（Qwen 1.5 7B），搭建外贸AI对话系统，回复速度提升60%。",
-      "外贸运营：负责MIC中国制造网和阿里国际平台运营，优化SEO与产品展示，提升曝光与触达效率。"
+      "平台运营与AI提效：负责MIC中国制造网平台日常运营，使用AI工具整理产品信息、翻译多语种文件、批量优化商品上架文案，提升产品页专业度与上架效率。",
+      "客户对接支持：利用AI快速生成客户询盘回复话术与产品技术参数说明，提升响应速度与专业度，辅助完成水质检测仪器及仪表产品的海外客户开发与维护。"
     ],
     descriptionEn: [
-      "AI Tech Lead: Led local deployment of Qwen 1.5 7B model. Built a customized AI dialogue system, increasing response speed by 60%.",
-      "Foreign Trade Ops: Optimized SEO and product listings for MIC and Alibaba International platforms."
+      "Platform Operation: Managed MIC listings and used AI tools for multilingual translation, product information structuring, and bulk copy optimization.",
+      "Client Support: Used AI to generate inquiry responses and technical parameter explanations, improving response speed and professionalism."
+    ]
+  },
+  {
+    companyZh: "衡阳幼儿师范高等专科学校",
+    companyEn: "Hengyang Preschool Education College",
+    roleZh: "英语教师（实习）",
+    roleEn: "English Teacher (Intern)",
+    period: "2024.03 - 2024.06",
+    descriptionZh: [
+      "采用互动式教学方法，通过小组协作任务、课堂即兴问答、情景模拟交流等形式激活课堂氛围，显著提升学生课堂参与率与语言表达兴趣。",
+      "负责作业与考试全流程设计评估，建立标准化评价体系，确保评价客观精准；并针对薄弱点提供及时反馈与个性化辅导方案。"
+    ],
+    descriptionEn: [
+      "Applied interactive teaching methods (group tasks, impromptu Q&A, scenario simulation) to improve engagement and speaking participation.",
+      "Designed and evaluated assignments and exams with standardized assessment criteria, then provided timely feedback and personalized tutoring."
+    ]
+  },
+  {
+    companyZh: "衡阳市第十六中学",
+    companyEn: "Hengyang No.16 Middle School",
+    roleZh: "英语教师 / 班主任（实习）",
+    roleEn: "English Teacher / Homeroom Teacher (Intern)",
+    period: "2023.09 - 2023.12",
+    descriptionZh: [
+      "独立完成初高中英语课程备课、授课、作业批改及学情分析，针对学生差异实施分层教学与个性化错题辅导。",
+      "建立班级量化考核制度并组建学习互助小组，结合主题班会与家校沟通提升班级管理成效。",
+      "任职一学期内，所带班级英语平均分从年级第9名跃升至第5名，整体及格率提升18%，班级获评“优秀进步集体”。"
+    ],
+    descriptionEn: [
+      "Handled full-cycle teaching tasks for junior and senior English classes with differentiated instruction and targeted error correction support.",
+      "Implemented class management mechanisms, peer-learning groups, and regular home-school communication.",
+      "Within one semester, class average ranking improved from 9th to 5th in grade and pass rate increased by 18%."
     ]
   }
 ];
@@ -121,53 +147,48 @@ export const EXPERIENCES: Experience[] = [
 // Projects
 export const PROJECTS: Project[] = [
   {
-    titleZh: "企业级私有AI集成平台",
-    titleEn: "Enterprise AI Integration Platform",
-    categoryZh: "工作项目 / 阿里巴巴",
-    categoryEn: "Work / Alibaba",
-    descriptionZh: "聚焦数据安全，集成主流多模态模型，支持本地/内网调用。创新设计小组级共享协作模块，实现AI生成文件在线预览与多人协作。",
-    descriptionEn: "Secure, local-first AI platform integrating multi-modal models. Features real-time collaborative editing and data compliance.",
-    techStack: ["Product Design", "System Integration", "Security Compliance"],
-    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
-    demoUrl: "https://aistudio.readingassistant.top/",
-    isPersonal: false
-  },
-  {
-    titleZh: "海外邮件自动化通知中台",
-    titleEn: "Overseas Mail Automation Hub",
-    categoryZh: "工作项目 / 阿里巴巴",
-    categoryEn: "Work / Alibaba",
-    descriptionZh: "针对跨时空协作，设计全流程通知机制。支持双身份权限管理，进度实时同步与逾期提醒，大幅提升协作效率。",
-    descriptionEn: "Solved cross-timezone collaboration issues via automated notifications. Features hierarchy management and progress tracking.",
-    techStack: ["Workflow Automation", "Product Management", "UX Design"],
-    imageUrl: "https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=600&auto=format&fit=crop",
-    demoUrl: "https://timesync.readingassistant.top/tasks",
-    isPersonal: false
+    titleZh: "阅读助手",
+    titleEn: "Reading Assistant",
+    categoryZh: "个人项目 / 独立开发（2025.11-至今）",
+    categoryEn: "Personal Project / Solo Development",
+    descriptionZh: "开发个人阅读管理工具，支持ISBN扫码/输入添加书籍、阅读进度可视化记录（当前页/总页数/百分比）与阅读时长统计；搭建固定时段邮件提醒机制，自动推送在读进度摘要。",
+    descriptionEn: "A personal reading management tool with ISBN add-book support, progress visualization, reading duration tracking, and scheduled email reminders.",
+    techStack: ["Python", "Database Design", "Frontend", "Task Scheduler"],
+    imageUrl: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=600&auto=format&fit=crop",
+    isPersonal: true
   },
   {
     titleZh: "诸葛亮角色扮演大模型",
     titleEn: "Zhuge Liang Roleplay LLM",
-    categoryZh: "个人项目 / 微调",
-    categoryEn: "Personal / Fine-tuning",
-    descriptionZh: "独立完成开源大模型轻量化微调，收集《三国演义》素材，还原角色风格。全程自主推进数据整理、参数配置与部署。",
-    descriptionEn: "Independent lightweight fine-tuning of an open-source LLM. Curated datasets to replicate character style. Managed pipeline from data cleaning to deployment.",
-    techStack: ["Python", "PyTorch", "LLM Fine-tuning", "Prompt Engineering"],
-    imageUrl: "./avatar.jpg", 
-    githubUrl: "https://github.com/redbanchk/wolong-chat",
-    demoUrl: "https://wolongchat.readingassistant.top/",
+    categoryZh: "个人项目 / 独立开发（2025.11-至今）",
+    categoryEn: "Personal Project / Solo Development",
+    descriptionZh: "基于兴趣驱动的大模型场景化实践，自主收集《三国演义》《三国志》等文献素材，优化Prompt与微调参数，还原角色对话风格与历史知识储备。",
+    descriptionEn: "A scenario-based LLM practice project that recreates Zhuge Liang's speaking style and knowledge base through curated historical corpora and prompt/parameter optimization.",
+    techStack: ["Python", "Prompt Engineering", "LLM Fine-tuning", "Data Curation"],
+    imageUrl: "./avatar.jpg",
     isPersonal: true
   },
   {
-    titleZh: "AI驱动热点新闻推送系统",
-    titleEn: "AI News Push System",
-    categoryZh: "个人开发 / 全栈",
-    categoryEn: "Personal / Full Stack",
-    descriptionZh: "融合爬虫与AI技术，抓取热点新闻并自动摘要分类，实现每日邮件推送。独立完成技术选型、开发测试与上线。",
-    descriptionEn: "Automated system combining crawlers and AI summarization. Scrapes trending news, filters via AI, and sends daily digests.",
-    techStack: ["Python", "Web Scraping", "NLP", "Automation"],
+    titleZh: "AI驱动热点新闻信息推送系统",
+    titleEn: "AI-Driven Hot News Push System",
+    categoryZh: "个人项目 / 独立开发（2025.10-至今）",
+    categoryEn: "Personal Project / Solo Development",
+    descriptionZh: "基于个人信息获取需求，融合爬虫抓取主流平台热点，通过大模型完成内容筛选、摘要生成与智能分类，并搭建定时邮件推送机制。",
+    descriptionEn: "An automated information assistant that crawls trending topics, uses LLMs for filtering/summarization/classification, and sends scheduled email digests.",
+    techStack: ["Python", "Web Crawling", "LLM Summarization", "Automation"],
     imageUrl: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=600&auto=format&fit=crop",
-    githubUrl: "https://github.com/redbanchk/TrendRadar2.1",
-    demoUrl: "https://newsreport.readingassistant.top/",
+    isPersonal: true
+  },
+  {
+    titleZh: "个人网站",
+    titleEn: "Personal Website",
+    categoryZh: "个人项目 / 独立开发（2025.10-至今）",
+    categoryEn: "Personal Project / Solo Development",
+    descriptionZh: "围绕个人经历与项目展示搭建响应式作品集网站，持续维护内容与展示结构，支持对外访问。",
+    descriptionEn: "A continuously maintained responsive portfolio website for showcasing personal background and projects.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=600&auto=format&fit=crop",
+    demoUrl: "https://mypersonalsite.readingassistant.top",
     isPersonal: true
   }
 ];

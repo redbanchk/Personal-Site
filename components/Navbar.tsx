@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Mail, Phone, MessageSquare, Copy, Check } from 'lucide-react';
-import { CONTACT_INFO } from '../constants';
+import { CONTACT_INFO, PERSONAL_INFO } from '../constants';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
           <div className="flex justify-between items-center">
             <div className="flex-shrink-0 flex items-center">
               <a href="#home" className="text-xl font-bold text-white tracking-tight hover:text-primary transition-colors">
-                Kunji He's Portfolio
+                {PERSONAL_INFO.nameEn}'s Portfolio
               </a>
             </div>
             

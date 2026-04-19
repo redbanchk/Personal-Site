@@ -36,8 +36,8 @@ const Skills: React.FC = () => {
 
              <div className="mt-8 flex flex-wrap gap-4 text-sm text-primary font-mono">
                <span className="bg-slate-900 px-3 py-1 rounded-full border border-slate-700">3 Years Exp</span>
-               <span className="bg-slate-900 px-3 py-1 rounded-full border border-slate-700">Product Management</span>
-               <span className="bg-slate-900 px-3 py-1 rounded-full border border-slate-700">AI / LLM</span>
+               <span className="bg-slate-900 px-3 py-1 rounded-full border border-slate-700">AI Enablement</span>
+               <span className="bg-slate-900 px-3 py-1 rounded-full border border-slate-700">Data Annotation / Automation</span>
              </div>
            </div>
         </div>
