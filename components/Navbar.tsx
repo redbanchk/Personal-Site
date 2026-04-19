@@ -1,6 +1,40 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Mail, Phone, MessageSquare, Copy, Check } from 'lucide-react';
+import { Menu, X, Mail, Phone, Copy, Check } from 'lucide-react';
 import { CONTACT_INFO, PERSONAL_INFO } from '../constants';
+
+const QQIcon: React.FC = () => (
+  <span
+    aria-label="QQ"
+    className="w-5 h-5 inline-block bg-current"
+    style={{
+      maskImage: 'url("https://cdn.simpleicons.org/tencentqq")',
+      WebkitMaskImage: 'url("https://cdn.simpleicons.org/tencentqq")',
+      maskRepeat: 'no-repeat',
+      WebkitMaskRepeat: 'no-repeat',
+      maskPosition: 'center',
+      WebkitMaskPosition: 'center',
+      maskSize: 'contain',
+      WebkitMaskSize: 'contain',
+    }}
+  />
+);
+
+const WeChatIcon: React.FC = () => (
+  <span
+    aria-label="WeChat"
+    className="w-5 h-5 inline-block bg-current"
+    style={{
+      maskImage: 'url("https://cdn.simpleicons.org/wechat")',
+      WebkitMaskImage: 'url("https://cdn.simpleicons.org/wechat")',
+      maskRepeat: 'no-repeat',
+      WebkitMaskRepeat: 'no-repeat',
+      maskPosition: 'center',
+      WebkitMaskPosition: 'center',
+      maskSize: 'contain',
+      WebkitMaskSize: 'contain',
+    }}
+  />
+);
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,8 +64,8 @@ const Navbar: React.FC = () => {
   };
 
   const contactItems = [
-    { label: 'QQ', value: CONTACT_INFO.qq, icon: <MessageSquare className="w-5 h-5" /> },
-    { label: 'WeChat', value: CONTACT_INFO.wechat, icon: <MessageSquare className="w-5 h-5" /> },
+    { label: 'QQ', value: CONTACT_INFO.qq, icon: <QQIcon /> },
+    { label: 'WeChat', value: CONTACT_INFO.wechat, icon: <WeChatIcon /> },
     { label: 'Email', value: CONTACT_INFO.email, icon: <Mail className="w-5 h-5" /> },
     { label: 'Phone', value: CONTACT_INFO.phone, icon: <Phone className="w-5 h-5" /> },
   ];
