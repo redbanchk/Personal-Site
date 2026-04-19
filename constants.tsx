@@ -32,6 +32,9 @@ export const CONTACT_INFO = {
 // Social Links
 export const SOCIAL_LINKS: SocialLink[] = [
   { name: '个人网站', url: 'https://mypersonalsite.readingassistant.top', icon: <Globe className="w-5 h-5" /> },
+  { name: '阅读助手', url: 'https://reading-assistant-delta.vercel.app/', icon: <BookOpen className="w-5 h-5" /> },
+  { name: '诸葛问策台', url: 'https://wolongchat.readingassistant.top/', icon: <MessageSquare className="w-5 h-5" /> },
+  { name: '热点新闻分析', url: 'https://newsreport.readingassistant.top/', icon: <FileText className="w-5 h-5" /> },
   { name: '邮箱', url: 'mailto:1094822072@qq.com', icon: <Mail className="w-5 h-5" /> },
 ];
 
@@ -155,6 +158,7 @@ export const PROJECTS: Project[] = [
     descriptionEn: "A personal reading management tool with ISBN add-book support, progress visualization, reading duration tracking, and scheduled email reminders.",
     techStack: ["Python", "Database Design", "Frontend", "Task Scheduler"],
     imageUrl: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=600&auto=format&fit=crop",
+    demoUrl: "https://reading-assistant-delta.vercel.app/",
     isPersonal: true
   },
   {
@@ -166,6 +170,7 @@ export const PROJECTS: Project[] = [
     descriptionEn: "A scenario-based LLM practice project that recreates Zhuge Liang's speaking style and knowledge base through curated historical corpora and prompt/parameter optimization.",
     techStack: ["Python", "Prompt Engineering", "LLM Fine-tuning", "Data Curation"],
     imageUrl: "./avatar.jpg",
+    demoUrl: "https://wolongchat.readingassistant.top/",
     isPersonal: true
   },
   {
@@ -177,6 +182,7 @@ export const PROJECTS: Project[] = [
     descriptionEn: "An automated information assistant that crawls trending topics, uses LLMs for filtering/summarization/classification, and sends scheduled email digests.",
     techStack: ["Python", "Web Crawling", "LLM Summarization", "Automation"],
     imageUrl: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=600&auto=format&fit=crop",
+    demoUrl: "https://newsreport.readingassistant.top/",
     isPersonal: true
   }
 ];
