@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Code, Users, Brain, Globe, Github, Mail, Linkedin, FileText, Phone, MessageSquare } from 'lucide-react';
+import { Briefcase, Code, Users, Brain, Globe, Github, Mail, Linkedin, FileText, Phone, MessageSquare, BookOpen } from 'lucide-react';
 import { Experience, Project, Skill, SocialLink } from './types';
 
 // Personal Info
