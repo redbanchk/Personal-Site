@@ -178,17 +178,5 @@ export const PROJECTS: Project[] = [
     techStack: ["Python", "Web Crawling", "LLM Summarization", "Automation"],
     imageUrl: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=600&auto=format&fit=crop",
     isPersonal: true
-  },
-  {
-    titleZh: "个人网站",
-    titleEn: "Personal Website",
-    categoryZh: "个人项目 / 独立开发（2025.10-至今）",
-    categoryEn: "Personal Project / Solo Development",
-    descriptionZh: "围绕个人经历与项目展示搭建响应式作品集网站，持续维护内容与展示结构，支持对外访问。",
-    descriptionEn: "A continuously maintained responsive portfolio website for showcasing personal background and projects.",
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=600&auto=format&fit=crop",
-    demoUrl: "https://mypersonalsite.readingassistant.top",
-    isPersonal: true
   }
 ];

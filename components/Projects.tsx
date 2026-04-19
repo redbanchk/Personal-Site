@@ -18,10 +18,14 @@ const Projects: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {PROJECTS.map((project, index) => (
-            <div 
-              key={index} 
-              className="group bg-card rounded-2xl overflow-hidden border border-slate-800 hover:border-slate-600 transition-all duration-300 flex flex-col h-full"
+          {PROJECTS.map((project, index) => {
+            const isLastOddItem = PROJECTS.length % 2 === 1 && index === PROJECTS.length - 1;
+            return (
+            <div
+              key={index}
+              className={`group bg-card rounded-2xl overflow-hidden border border-slate-800 hover:border-slate-600 transition-all duration-300 flex flex-col h-full ${
+                isLastOddItem ? 'md:col-span-2 md:max-w-[calc(50%-1rem)] md:mx-auto' : ''
+              }`}
             >
               {/* Image Container with Preview Trigger */}
               <div 
@@ -110,7 +114,8 @@ const Projects: React.FC = () => {
                 </div>
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
